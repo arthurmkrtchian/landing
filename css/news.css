@@ -1,14 +1,19 @@
 .last-news .container {
     display: grid;
-    gap: 20px;
+    gap: 40px;
 }
 
-.last-news__item{
+.last-news__item {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
-.last-news__item-image{
+
+.post-description {
+   /* display: none; */
+}
+
+.last-news__item-image {
     border-radius: 12px;
     overflow: hidden;
 }
@@ -30,15 +35,15 @@ img {
     color: var(--secondary-text);
 }
 
-.last-news__item:hover img{
+.last-news__item:hover img {
     transform: scale(1.1);
 }
 
-.last-news__item:hover p{
+.last-news__item:hover p {
     color: var(--regular-font-color);
 }
 
-.last-news__item:hover h3{
+.last-news__item:hover h3 {
     color: var(--brand-color-light);
 }
 
