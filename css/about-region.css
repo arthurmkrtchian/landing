@@ -1,4 +1,4 @@
-.about-region{
+.about-region {
     background-color: var(--background-secondary);
     height: 100vh;
 }
@@ -8,11 +8,64 @@
     margin-right: 20px;
 }
 
-.about-region__heading{
+.about-region__content {
+    text-align: center;
+}
+
+.about-region__heading {
     padding-top: 120px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+}
+
+.regions-indicators {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.region-indicators__item {
+    background-color: var(--background-main-color);
+    width: 100%;
+    padding: 20px;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+
+.region-indicators__item:hover {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.region-indicators__item-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.region-indicators__item-value {
+
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--brand-color-dark);
+}
+
+.region-indicators__item-description {
+    color: var(--brand-color-dark);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.region-indicators__item-title {
+    color: var(--brand-color-dark);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.region-indicators__item-icon {
+    max-width: 64px;
 }

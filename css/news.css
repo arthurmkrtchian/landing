@@ -22,10 +22,6 @@ img {
     max-width: 100%;
 }
 
-.last-news__item img:hover{
-    transform: scale(1.1);
-}
-
 .last-news__item h3 {
     margin-top: 10px;
 }
@@ -35,10 +31,14 @@ img {
     color: var(--secondary-text);
 }
 
-.last-news__item p:hover {
+.last-news__item:hover img{
+    transform: scale(1.1);
+}
+
+.last-news__item:hover p{
     color: var(--regular-font-color);
 }
 
-.last-news__item h3:hover{
+.last-news__item:hover h3{
     color: var(--brand-color-light);
 }
