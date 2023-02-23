@@ -1,6 +1,5 @@
 .last-news .container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
 
@@ -41,4 +40,16 @@ img {
 
 .last-news__item:hover h3{
     color: var(--brand-color-light);
+}
+
+@media screen and (min-width: 558px) {
+    .last-news .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 997px) {
+    .last-news .container {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
