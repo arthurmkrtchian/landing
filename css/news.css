@@ -1,0 +1,44 @@
+.last-news .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.last-news__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.last-news__item-image{
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+img {
+    transition: 0.5s;
+}
+
+.last-news__item img {
+    max-width: 100%;
+}
+
+.last-news__item img:hover{
+    transform: scale(1.1);
+}
+
+.last-news__item h3 {
+    margin-top: 10px;
+}
+
+.last-news__item p {
+    margin-top: 10px;
+    color: var(--secondary-text);
+}
+
+.last-news__item p:hover {
+    color: var(--regular-font-color);
+}
+
+.last-news__item h3:hover{
+    color: var(--brand-color-light);
+}

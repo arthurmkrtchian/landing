@@ -1,0 +1,18 @@
+.about-region{
+    background-color: var(--background-secondary);
+    height: 100vh;
+}
+
+#region-coat {
+    max-width: 64px;
+    margin-right: 20px;
+}
+
+.about-region__heading{
+    padding-top: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
