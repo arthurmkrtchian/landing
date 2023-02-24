@@ -25,7 +25,6 @@ a:visited {
     color: inherit;
 }
 
-
 input {
     outline: none;
 }
@@ -34,7 +33,7 @@ input {
     display: block;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 40px 24px;
+    padding: 40px 24px 0px 24px;
 }
 
 body {
@@ -83,19 +82,24 @@ h2 {
     display: flex;
     align-items: center;
     text-align: center;
-  }
-  
-  .separator::before,
-  .separator::after {
+}
+
+.separator::before,
+.separator::after {
     content: '';
     flex: 1;
     border-bottom: 1px solid var(--brand-color-dark);
-  }
-  
-  .separator:not(:empty)::before {
+}
+
+.separator:not(:empty)::before {
     margin-right: .25em;
-  }
-  
-  .separator:not(:empty)::after {
+}
+
+.separator:not(:empty)::after {
     margin-left: .25em;
-  }
+}
+
+.section__heading-text {
+    font-size: 18px;
+    font-weight: 300;
+}
