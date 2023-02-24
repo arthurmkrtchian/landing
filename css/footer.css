@@ -29,6 +29,7 @@ footer .container {
 
 .footer__column a {
     color: var(--light-text);
+    font-weight: 300;
 }
 
 .footer__column a:hover {
