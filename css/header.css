@@ -3,6 +3,9 @@
     direction: row;
     align-items: center;
     justify-content: space-between;
+    padding: 0 24px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .header_nav {
