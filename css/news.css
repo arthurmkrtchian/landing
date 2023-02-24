@@ -1,4 +1,4 @@
-.last-news .container {
+.last-news__collection {
     display: grid;
     gap: 40px;
 }
@@ -48,13 +48,19 @@ img {
 }
 
 @media screen and (min-width: 558px) {
-    .last-news .container {
+    .last-news__collection {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media screen and (min-width: 997px) {
-    .last-news .container {
+    .last-news__collection {
         grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .last-news__collection {
+        margin-top: 20px;
     }
 }
