@@ -1,4 +1,5 @@
 .about-region {
+    margin-top: 40px;
     background-color: var(--background-secondary);
     min-height: 100vh;
 }
