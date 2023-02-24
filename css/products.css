@@ -17,7 +17,7 @@
 }
 
 .digital-products__collection-item:hover{
-    box-shadow: 0px 0px 24px 0px var(--brand-color-dark-transparent);
+    box-shadow: 0px 12px 24px 0px var(--brand-color-dark-transparent);
 }
 
 .digital-products__heading-text {
@@ -38,6 +38,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    user-select: none; 
     padding: 8px 40px;
     border-radius: 4px;
     background-color: var(--brand-color-dark);
@@ -49,6 +50,7 @@
 
 .collection-item__button:hover {
     background-color: var(--brand-color-light);
+    box-shadow: 0px 0px 12px 0px var(--brand-color-light-transparent);
 }
 
 
