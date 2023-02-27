@@ -52,19 +52,19 @@
     position: inherit;
     font-weight: 700;
     font-size: 32px;
-    color: var(--brand-color-dark);
+    color: var(--brand-dark);
 }
 
 .region-indicators__item-description {
     position: inherit;
-    color: var(--brand-color-dark);
+    color: var(--brand-dark);
     font-size: 18px;
     font-weight: 300;
 }
 
 .region-indicators__item-title {
     position: inherit;
-    color: var(--brand-color-dark);
+    color: var(--brand-dark);
     font-size: 30px;
     font-weight: 700;
 }

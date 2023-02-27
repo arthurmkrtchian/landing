@@ -1,6 +1,6 @@
 footer {
     width: 100%;
-    background-color: var(--brand-color-dark);
+    background-color: var(--brand-dark);
 }
 
 footer h3 {
@@ -25,6 +25,7 @@ footer .container {
 
 .footer-logo {
     filter: brightness(0) invert(1);
+    max-width: 240px;
     margin-bottom: 20px;
 }
 
@@ -34,7 +35,7 @@ footer .container {
 }
 
 .footer__column a:hover {
-    color: var(--brand-color-light);
+    color: var(--brand-light);
 }
 
 .copyright {

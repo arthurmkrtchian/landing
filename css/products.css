@@ -17,7 +17,7 @@
 }
 
 .digital-products__collection-item:hover {
-    box-shadow: 0px 12px 24px 0px var(--brand-color-dark-transparent);
+    box-shadow: 0px 12px 24px 0px var(--brand-dark-transparent);
 }
 
 .collection-item__icon {
@@ -26,6 +26,7 @@
 
 .collection-item__description {
     margin-top: 20px;
+    text-align: center;
 }
 
 .collection-item__button {
@@ -36,7 +37,7 @@
     user-select: none;
     padding: 8px 40px;
     border-radius: 4px;
-    background-color: var(--brand-color-dark);
+    background-color: var(--brand-dark);
     color: var(--light-text);
     font-size: 16px;
     font-weight: 500;
@@ -44,8 +45,8 @@
 }
 
 .collection-item__button:hover {
-    background-color: var(--brand-color-light);
-    box-shadow: 0px 0px 12px 0px var(--brand-color-light-transparent);
+    background-color: var(--brand-light);
+    box-shadow: 0px 0px 12px 0px var(--brand-light-transparent);
 }
 
 

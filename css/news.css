@@ -44,7 +44,7 @@ img {
 }
 
 .last-news__item:hover h3 {
-    color: var(--brand-color-light);
+    color: var(--brand-light);
 }
 
 @media screen and (min-width: 558px) {

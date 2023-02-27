@@ -1,13 +1,15 @@
+@import url("../fonts/fonts.css");
+
 * {
     margin: 0;
     padding: 0;
 }
 
 :root {
-    --brand-color-dark: #293E81;
-    --brand-color-light: #D66E24;
-    --brand-color-dark-transparent: #293e813f;
-    --brand-color-light-transparent: #d66e244d;
+    --brand-dark: #293E81;
+    --brand-light: #D66E24;
+    --brand-dark-transparent: #293e813f;
+    --brand-light-transparent: #d66e244d;
     --brand-secondary-color: #e7e7e7;
     --background-main-color: #ffffff;
     --background-secondary: #F8F8F8;
@@ -41,7 +43,7 @@ body {
 }
 
 select {
-    color: var(--brand-color-light);
+    color: var(--brand-light);
     font-family: 'Geometria';
     font-size: 16px;
     border: none;
@@ -58,7 +60,7 @@ select:focus {
 li {
     font-size: 16px;
     font-weight: 500;
-    color: var(--brand-color-dark);
+    color: var(--brand-dark);
 }
 
 p {
@@ -68,13 +70,13 @@ p {
 }
 
 h3 {
-    color: var(--brand-color-dark);
+    color: var(--brand-dark);
     font-weight: 500;
     font-size: 18px;
 }
 
 h2 {
-    color: var(--brand-color-dark);
+    color: var(--brand-dark);
 }
 
 .separator {
@@ -88,7 +90,7 @@ h2 {
 .separator::after {
     content: '';
     flex: 1;
-    border-bottom: 1px solid var(--brand-color-dark);
+    border-bottom: 1px solid var(--brand-dark);
 }
 
 .separator:not(:empty)::before {
