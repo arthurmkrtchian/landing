@@ -8,9 +8,6 @@
     margin: 0 auto;
 }
 
-.header_nav {
-    display: none;
-}
 
 header {
     background-color: var(--background-main-color);
